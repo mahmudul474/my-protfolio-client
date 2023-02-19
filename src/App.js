@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { RouterProvider } from 'react-router-dom';
+import router from './Routs/routs';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
 
 export default App;
+
+///https://youtubebinjanportfolio.pages.dev/
+//https://saadportfolio.xyz/
+//https://www.khaliddev.com/?fbclid=IwAR0E4b0T3wz4HNqsVW4DabSzStlcVcLOvHKUAjum1xaLnR6ysWjaOz_fNEY#home

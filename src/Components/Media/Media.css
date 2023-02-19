@@ -1,0 +1,10 @@
+.fixed-bottom-right {
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+}
+ .fixed-bottom-right>a{
+    margin-right: 18px;
+    
+
+}
