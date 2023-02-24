@@ -4,137 +4,105 @@ import bg from "./Assests/projects.jpg";
 const Projexts = () => {
   return (
     <div
-      className="  p-9 h-screen overflow-y-scroll"
+      id="projects"
+      className="  p-9 "
       style={{
         backgroundImage: `url(${bg})`
       }}
     >
-      <h1
-        className="text-left text-white
-text-6xl pb-6  ml-14"
-      >
+      <h1 className="text-left mt-9 lg-mt-0 text-white text-5xl pb-6 ">
         Latest projects
       </h1>
 
-      <div className=" grid gap-8 lg:grid-cols-3 text-white mx-16 md:grid-cols-2 grid-cols-1 ">
-        <div className="relative">
-          <div className="border-2 border-gray-500   flex items-center">
-            <div className="card p-4 ">
-              <h3 className="text-2xl pb-2 capitalize text-center ">
-                helllo programer
-              </h3>
-              <figure>
-                <img
-                  className="border-2 rounded-md"
-                  src="https://images.unsplash.com/photo-1511268594014-0e9d3ea5c33e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zmxhc2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                  alt="phot"
+      <div className="grid  lg:grid-cols-3 md:grid-cols-2 grid-cols-1  gap-9">
+        <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+            <img
+              className="rounded-t-lg"
+              src="/docs/images/blog/image-1.jpg"
+              alt=""
+            />
+          </a>
+          <div className="p-5 ">
+            <a href="#">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Noteworthy technology acquisitions 2021
+              </h5>
+            </a>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+            <a
+              href="#"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Read more
+              <svg
+                aria-hidden="true"
+                className="w-4 h-4 ml-2 -mr-1"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clipRule="evenodd"
                 />
-              </figure>
-              <div className="mb-12">
-                <p>Project-Type: Client Projects </p>
-                <p className="h-20 ">
-                  This is a simple product management site where you can store
-                  add, update or delete a categories and products This is a
-                  simple product management site where you can store add, update
-                  or delete a categories and products This is a simple product
-                  management site where you can store add, update or delete a
-                  categories and products This is a simple product management
-                  site where you can store add, update or delete a categories
-                  and products This is a simple product management site where
-                  categories and products
-                </p>
-              </div>
-            </div>
+              </svg>
+            </a>
           </div>
-          <button className="absolute left-1/2 transform -translate-x-1/2 flex items-center -bottom-4 px-4 py-2 bg-green-500 text-white rounded-md">
-            See Dettails<span className="text-2xl">→</span>
-          </button>
         </div>
-        <div className="relative">
-          <div className="border-2 border-gray-500   flex items-center">
-            <div className="card p-4 ">
-              <h3 className="text-2xl pb-2 capitalize text-center ">
-                helllo programer
-              </h3>
-              <figure>
-                <img
-                  className="border-2 rounded-md"
-                  src="https://images.unsplash.com/photo-1511268594014-0e9d3ea5c33e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zmxhc2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                  alt="phot"
+
+        <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <a href="#">
+            <img
+              className="rounded-t-lg"
+              src="/docs/images/blog/image-1.jpg"
+              alt=""
+            />
+          </a>
+          <div className="p-5">
+            <a href="#">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Noteworthy technology acquisitions 2021
+              </h5>
+            </a>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+            <a
+              href="#"
+              className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Read more
+              <svg
+                aria-hidden="true"
+                className="w-4 h-4 ml-2 -mr-1"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clipRule="evenodd"
                 />
-              </figure>
-              <div>
-                <p>Project-Type: Client Projects </p>
-                <p>
-                  This is a simple product management site where you can store
-                  add, update or delete a categories and products
-                </p>
-              </div>
-            </div>
+              </svg>
+            </a>
           </div>
-          <button className="absolute left-1/2 transform -translate-x-1/2 flex items-center -bottom-4 px-4 py-2 bg-green-500 text-white rounded-md">
-            See Dettails<span className="text-2xl">→</span>
-          </button>
-        </div>
-        <div className="relative">
-          <div className="border-2 border-gray-500   flex items-center">
-            <div className="card p-4 ">
-              <h3 className="text-2xl pb-2 capitalize text-center ">
-                helllo programer
-              </h3>
-              <figure>
-                <img
-                  className="border-2 rounded-md"
-                  src="https://images.unsplash.com/photo-1511268594014-0e9d3ea5c33e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zmxhc2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                  alt="phot"
-                />
-              </figure>
-              <div>
-                <p>Project-Type: Client Projects </p>
-                <p>
-                  This is a simple product management site where you can store
-                  add, update or delete a categories and products
-                </p>
-              </div>
-            </div>
-          </div>
-          <button className="absolute left-1/2 transform -translate-x-1/2 flex items-center -bottom-4 px-4 py-2 bg-green-500 text-white rounded-md">
-            See Dettails<span className="text-2xl">→</span>
-          </button>
-        </div>
-        <div className="relative">
-          <div className="border-2 border-gray-500   flex items-center">
-            <div className="card p-4 ">
-              <h3 className="text-2xl pb-2 capitalize text-center ">
-                helllo programer
-              </h3>
-              <figure>
-                <img
-                  className="border-2 rounded-md"
-                  src="https://images.unsplash.com/photo-1511268594014-0e9d3ea5c33e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zmxhc2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                  alt="phot"
-                />
-              </figure>
-              <div>
-                <p>Project-Type: Client Projects </p>
-                <p>
-                  This is a simple product management site where you can store
-                  add, update or delete a categories and products
-                </p>
-              </div>
-            </div>
-          </div>
-          <button className="absolute left-1/2 transform -translate-x-1/2 flex items-center -bottom-4 px-4 py-2 bg-green-500 text-white rounded-md">
-            See Dettails<span className="text-2xl">→</span>
-          </button>
         </div>
       </div>
 
-      <Link to="https://github.com/mahmudul474">
-        <button className=" p-5 rounded-lg w-60 text-lg font-bold  bg-green-500 text-black uppercase">
-         Visit My Github
-        </button>
-      </Link>
+      <div className="flex justify-center items-center ">
+        <Link to="https://github.com/mahmudul474">
+          <button className=" mt-9 p-3  rounded-sm w-60 text-lg  font-semibold  bg-green-500 text-black-4000 uppercase">
+            Visit My Github
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };

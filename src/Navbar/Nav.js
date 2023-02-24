@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import resume from "../Components/AboutMe/Assests/Mahmudul (2) (12).pdf";
 
 export const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,26 +10,28 @@ export const Nav = () => {
     setMenuOpen(!menuOpen);
   };
 
-const [isSticky, setIsSticky] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
-const handleScroll = () => {
-  if (window.scrollY > 0) {
-    setIsSticky(true);
-  } else {
-    setIsSticky(false);
-  }
-};
-useEffect(()=>{
-   window.addEventListener("scroll", handleScroll);
-   return () => {
-     window.removeEventListener("scroll", handleScroll);
-   };
-},[])
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <nav
       className={`${
-        isSticky ? "bg-transparent shadow-md" : "bg-transparent"
+        isSticky
+          ? "bg-transparent shadow-2xl backdrop-blur-lg"
+          : "bg-transparent"
       } fixed top-0 left-0 right-0 z-10`}
     >
       <div class="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -39,8 +43,9 @@ useEffect(()=>{
               title="Company"
               class="inline-flex items-center"
             >
-              <span class="ml-2 text-2xl  tracking-wide text-gray-100 uppercase">
-                Hasan.S
+              <span class="ml-2 text-2xl  tracking-wide text-green-500 uppercase">
+                Hasan.
+                <span className="font-semibold text-2xl text-gray-50">S</span>
               </span>
             </Link>
             <ul class="flex items-center ml-16 hidden space-x-8 lg:flex">
@@ -49,7 +54,7 @@ useEffect(()=>{
                   href="tel:+8801906479710"
                   aria-label="phone number"
                   title="phone number"
-                  class="font-medium hover:underline tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 text-sm"
+                  class="font-medium hover:underline tracking-wide text-green-500 transition-colors duration-200 hover:text-teal-accent-400 text-sm"
                 >
                   +8801906479710
                 </a>
@@ -59,7 +64,7 @@ useEffect(()=>{
                   href="mailto:mdmahmudulla474@gmail.com"
                   aria-label="gmail"
                   title="gmail"
-                  class="font-medium tracking-wide text-sm text-gray-100 transition-colors duration-200 hover:text-teal-accent-400 hover:underline"
+                  class="font-medium tracking-wide text-sm text-green-500 transition-colors duration-200 hover:text-teal-accent-400 hover:underline"
                 >
                   mdmahmudulla474@gmail.com
                 </a>
@@ -69,7 +74,7 @@ useEffect(()=>{
 
           <div>
             <button onClick={toggleMenu}>
-              <svg className="w-9 text-gray-600" viewBox="0 0 24 24">
+              <svg className="w-9 text-green-500" viewBox="0 0 24 24">
                 <path
                   fill="currentColor"
                   d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z"
@@ -85,7 +90,7 @@ useEffect(()=>{
               </svg>
             </button>
             <div
-              className={`fixed top-0 right-0 h-screen w-1/3 bg-gray-800 z-50 transition-all duration-500 transform ${
+              className={`fixed top-0 right-0 h-screen lg:w-1/3  w-full bg-gray-800 z-50 transition-all duration-500 transform ${
                 menuOpen ? "translate-x-0" : "translate-x-full"
               }`}
             >
@@ -103,10 +108,57 @@ useEffect(()=>{
                 </svg>
               </button>
 
-              <ul className="mt-16">
-                <li className="text-white hover:text-gray-300 py-4">Home</li>
-                <li className="text-white hover:text-gray-300 py-4">About</li>
-                <li className="text-white hover:text-gray-300 py-4">Contact</li>
+              <ul className="mt-10 lg:text-left pl-7 text-center  ">
+                <HashLink smooth to="#banner">
+                  <li
+                    onClick={() => setMenuOpen(false)}
+                    className="text-white font-bold hover:text-green-500 py-4"
+                  >
+                    Home
+                  </li>
+                </HashLink>
+
+                <HashLink smooth to="#about">
+                  <li
+                    onClick={() => setMenuOpen(false)}
+                    className="text-white font-bold hover:text-green-500 py-4"
+                  >
+                    About
+                  </li>
+                </HashLink>
+
+                <HashLink smooth to="#projects">
+                  <li
+                    onClick={() => setMenuOpen(false)}
+                    className="text-white font-bold hover:text-green-500 py-4"
+                  >
+                    Projects
+                  </li>
+                </HashLink>
+
+                <HashLink smooth to="#skills">
+                  <li
+                    onClick={() => setMenuOpen(false)}
+                    className="text-white font-bold hover:text-green-500 py-4"
+                  >
+                    Skills
+                  </li>
+                </HashLink>
+
+                <HashLink smooth to="#contact">
+                  <li
+                    onClick={() => setMenuOpen(false)}
+                    className="text-white font-bold hover:text-green-500 py-4"
+                  >
+                    <a href="#Contact"> Contact</a>
+                  </li>
+                </HashLink>
+
+                <a href={resume} download="mahmudul_resumi.pdf">
+                  <button className=" p-3 mt-5 font-semibold rounded-sm w-60 text-lg   bg-green-500 text-black-400 uppercase">
+                    Download-Resume
+                  </button>
+                </a>
               </ul>
             </div>
           </div>

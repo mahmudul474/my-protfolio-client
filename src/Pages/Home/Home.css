@@ -1,0 +1,23 @@
+.full-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scroll-icons a {
+  margin: 10px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.scroll-icons a:hover {
+  transform: translateY(-5px);
+}

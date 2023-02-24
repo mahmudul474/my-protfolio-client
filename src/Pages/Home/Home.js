@@ -7,19 +7,17 @@ import Skill from "../../Components/Skils/Skill";
 import Nav from "../../Navbar/Nav";
 import Banner from "./HomeBanner/Banner";
 
+
 const Home = () => {
   return (
-    <div>
-      <div>
-        <Nav></Nav>
-      </div>
+    <>
+    <Nav></Nav>
       <Banner></Banner>
       <About></About>
       <Projexts></Projexts>
       <Skill></Skill>
       <Contact></Contact>
-      <Media></Media>
-    </div>
+    </>
   );
 };
 

@@ -1,18 +1,18 @@
 import React from 'react';
- import bgimg  from "../assets/homebanner.jpg"
+ import bgimg  from "../assets/homebanner.jpg";
+ import { HashLink } from 'react-router-hash-link';
  
 const Banner = () => {
     return (
       <div
+        id="banner"
         className="hero min-h-screen  flex justify-start items-center"
         style={{
           backgroundImage: `url(${bgimg})`
         }}
       >
-        <div className=" pl-20 text-left">
-          <h2 className="text-xl text-white">
-            Software Engineer | Entrepreneur
-          </h2>
+        <div className="  lg:pl-20  pl-14  text-left">
+          <h2 className="text-xl text-white">Web-developer | Entrepreneur</h2>
           <h1 className="lg:text-[90px] md:text-[70px] text-6xl  text-white font-semibold ">
             <span className="text-green-500">Hi,</span> I'm
           </h1>
