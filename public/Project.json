@@ -1,0 +1,54 @@
+[
+    {
+         "Category":"Full-stack (team-project)",
+         "projectName":"Remote-talks",
+         "projectDescription":"Remote-Talk is a web conferencing application for online meetings and video conferences.",
+         "projectlink":[
+            {
+            "live":"",
+            "clientCode":"",
+             "serverCode":""
+            }
+        
+         ],
+
+         "features":[
+          "Authentication and Authorization: Remote Talk has a secure user authentication system with JWT tokens.",
+          "Responsive Design: Remote Talk is designed with a responsive interface for optimal user experience on different devices.",
+          "Meeting Features: Remote Talk allows users to create meetings with features such as virtual hand-raising, screen sharing, and live streaming.",
+          "Chat System: Remote Talk has a built-in messenger system for communication outside of meetings.",
+          "Profile Editing: Remote Talk users can edit their profiles and send friend requests.",
+          "Feedback System: Remote Talk has an option for users to provide feedback on the application."
+         ]
+  ,
+
+         "Technology":[
+            "Front-end: HTML, CSS, Tailwind,Metarial-ui React",
+            "Back-end: Node.js, Express, ",
+            "Database: MongoDB",
+            "Authentication: JWT tokens, Firebase",
+            "Real-time communication:  WebRTC",
+            "Other tools and libraries: Tailwind, Socket.io,."
+         ],
+        
+
+"home":"https://i.ibb.co/4KzGsLL/home-page.jpg",
+
+
+          "image":[
+
+
+"https://i.ibb.co/9GCP7q5/create-metting1.png",
+
+"https://i.ibb.co/n1W658H/login.png",
+"https://i.ibb.co/4dNkS1f/mettig-entry.png",
+"https://i.ibb.co/TM3ZbDJ/msegenger.png",
+"https://i.ibb.co/KsTHnJm/participent.png",
+"https://i.ibb.co/LdsCFK3/profile.png"
+
+          ]
+
+
+
+    }
+]

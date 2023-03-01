@@ -50,29 +50,38 @@ const Contact = () => {
                 <span className="text-green-500">chat with me.</span>
               </h1>
 
-              <div className="flex flex-col space-y-4 w-full  lg:w-4/6">
+              <form
+                action="https://getform.io/f/139b8724-8b55-45e7-bdfe-1ffbae844aea"
+                method="POST"
+                className="flex flex-col space-y-4 w-full  lg:w-4/6"
+              >
                 <input
                   type="text"
+                  required
                   className="border-b-2 py-5 border-gray-500  my-6 bg-transparent focus:outline-none  focus:bg-slate-50    text-black  px-3  rounded-md"
                   placeholder="Name"
+                  name="name"
                 />
                 <input
                   type="email"
+                  name="email"
+                  required
                   className="border-b-2 focus:outline-none rounded-md p-5 border-gray-500 bg-transparent focus:bg-slate-50 my-6  py-5 text-black   px-3"
                   placeholder="Email"
                 />
                 <textarea
                   className="border-b-2 focus:bg-white my-6 rounded-md p-8 border-gray-500  focus:out bg-transparent  s text-black py-9 px-3 outline-none"
                   placeholder="Message"
+                  name="message"
                 />
 
-                <button
+                <button type='submit'
                   style={{ marginTop: "50px" }}
                   className="   block p-3 rounded-lg w-60 text-lg font-bold  bg-green-500 text-black uppercase"
                 >
                   contact-me
                 </button>
-              </div>
+              </form>
             </div>
             ;
           </div>
