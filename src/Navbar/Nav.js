@@ -109,14 +109,14 @@ export const Nav = () => {
               </button>
 
               <ul className="mt-10 lg:text-left pl-7 text-center  ">
-                <HashLink smooth to="#banner">
+               <Link to="/">
                   <li
                     onClick={() => setMenuOpen(false)}
                     className="text-white font-bold hover:text-green-500 py-4"
                   >
                     Home
                   </li>
-                </HashLink>
+                </Link>
 
                 <HashLink smooth to="#about">
                   <li

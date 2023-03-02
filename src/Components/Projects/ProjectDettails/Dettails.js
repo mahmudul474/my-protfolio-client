@@ -115,7 +115,7 @@ const Dettails = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-10 ">
           {data?.image?.map((img) => (
             <img
-              className="h-auto max-w-full"
+              className=" border-green-500  border h-44  object-cover"
               src={img}
               alt="image description"
             />

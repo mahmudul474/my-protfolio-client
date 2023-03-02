@@ -28,7 +28,7 @@
             "Database: MongoDB",
             "Authentication: JWT tokens, Firebase",
             "Real-time communication:  WebRTC",
-            "Other tools and libraries: Tailwind, Socket.io,."
+            "Other tools and libraries: Vercel ,Socket.io,."
          ],
         
 
@@ -36,8 +36,6 @@
 
 
           "image":[
-
-
 "https://i.ibb.co/9GCP7q5/create-metting1.png",
 
 "https://i.ibb.co/n1W658H/login.png",
@@ -48,7 +46,169 @@
 
           ]
 
+    },
 
 
+    {
+         "Category":"MERN-STACK",
+         "projectName":"CarUP",
+         "projectDescription":"CarUp is a comprehensive and secure car service website that offers a range of services to users.",
+         "projectlink":[
+            {
+            "live":"",
+            "clientCode":"",
+             "serverCode":""
+            }
+        
+         ],
+
+         "features":[
+           " Authentication system: CarUp includes a secure authentication system to ensure that only authorized users can access the website.",
+
+"Services: The website offers a range of car services, which users can browse and select from based on their requirements.",
+
+"Payment gateway: The website integrates with a payment gateway to enable users to make payments for the services they order conveniently.",
+
+"Email sender: CarUp includes an email sending feature, which can be used to communicate important updates and notifications to users.",
+
+"Admin dashboard: Admins have access to a dashboard where they can add and manage engineirs, as well as oversee the overall functioning of the website.",
+
+"User dashboard: Users have their own dashboard, which displays the status of their orders and allows them to manage their orders accordingly.",
+
+"Support system: The website includes a support system, where engineirs can provide assistance to users and address their queries and concerns."
+         
+         ]
+  ,
+
+         "Technology":[
+            "Front-end: HTML, CSS, Tailwind, React",
+            "Back-end: Node.js, Express, ",
+            "Database: MongoDB",
+            "Authentication: JWT tokens, Firebase",
+            "Payment:Stripe",
+            "Other tools and libraries: Netlify, React-hook-form,"
+         ],
+        
+
+
+"home":"https://i.ibb.co/v1BBXRw/home-page.jpg",
+
+
+          "image":[
+"https://i.ibb.co/TWQZnZR/addeng.png",
+"https://i.ibb.co/F4Dmmn9/allusert-1.png",
+"https://i.ibb.co/Y0nfpnJ/manegeeng1.png",
+"https://i.ibb.co/HG9MFyb/order-dashbord.png"
+
+          ]
+
+    },
+    {
+      "Category": "MERN-STACK",
+      "projectName": "HeaEasy",
+      "projectDescription": "HeaEasy is a comprehensive car buy and sell website with features such as user authentication, live chat, and a reporting system.",
+      "projectlink": [
+        {
+          "live": "",
+          "clientCode": "",
+          "serverCode": ""
+        }
+      ],
+
+      "features": [
+        " HeaEasy is a car buy and sell website with three user types: buyers, sellers, and admins.",
+
+        "Buyers can browse and purchase cars listed on the website, leave reviews, and report any issues with the cars.",
+        "Sellers can add and sell cars on the website, and can also manage their listings and transactions.",
+        "Admins have access to a range of tools to manage the website, including approving and deleting seller accounts, adding and deleting car listings, and managing hold systems.",
+
+        "HeaEasy features a live chat system and allows users to share their experiences with others."
+      ],
+      "Technology": [
+        "Front-end: HTML, CSS, Tailwind, React",
+        "Back-end: Node.js, Express, ",
+        "Database: MongoDB",
+        "Authentication: JWT tokens, Firebase",
+        "Payment:Stripe",
+        "Other tools and libraries: Netlify, React-hook-form,"
+      ],
+
+      "home": "https://i.ibb.co/m5RfC2Y/homepage.jpg",
+
+      "image": [
+        "https://i.ibb.co/ngdYfr6/add-product1.png",
+        "https://i.ibb.co/7K1Cj2S/categoty.png",
+
+        "https://i.ibb.co/YZvHgBn/my-product1.png",
+        "https://i.ibb.co/X2zyz1c/product.png"
+      ]
     }
+
+
+
+
+
+
+
+
+
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///    {
+//          "Category":,
+//          "projectName":,
+//          "projectDescription",
+//          "projectlink":[
+//             {
+//             "live":"",
+//             "clientCode":"",
+//              "serverCode":""
+//             }
+        
+//          ],
+
+//          "features":[
+          
+//          ]
+//   ,
+
+//          "Technology":[
+//             "Front-end: HTML, CSS, Tailwind, React",
+//             "Back-end: Node.js, Express, ",
+//             "Database: MongoDB",
+//             "Authentication: JWT tokens, Firebase",
+//             "Payment:Stripe",
+//             "Other tools and libraries: Netlify, React-hook-form,"
+//          ],
+        
+
+
+// "home":"",
+
+
+//           "image":[
+
+
+//           ]
+
+//     }

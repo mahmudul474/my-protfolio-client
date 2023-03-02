@@ -11,7 +11,9 @@ import ProjectCard from "./ProjectCard";
 
 const Projexts = () => {
 
-const data = useData("http://localhost:5000/topprojects");
+const data = useData(
+  "https://my-site-server-devsobuj910.vercel.app/topprojects"
+);
 
 
 
